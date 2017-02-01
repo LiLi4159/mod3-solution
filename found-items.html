@@ -1,0 +1,7 @@
+
+<ul>
+    <li class="col-sm-6 col-md-4" ng-repeat="item in foundItems">
+       <span class="pull-left"> {{item.name}}</span>
+       <button class="pull-right" ng-click="onRemove({item:item})">Don't want this one</button>
+    </li>
+</ul>
